@@ -1,7 +1,10 @@
 # Add Homebrew `/usr/local/bin` and User `~/bin` to the `$PATH`
 PATH=/usr/local/bin:$PATH
 PATH=$HOME/bin:$PATH
+PATH=/usr/local/mysql/bin:$PATH
 export PATH
+
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 eval "$(rbenv init -)"
 ulimit -n 2560
