@@ -24,6 +24,8 @@ alias gco='git checkout'
 
 # Grunt aliases
 alias gsl='grunt server:local'
+alias gku='grunt karma:unit'
+alias ktest='grunt karma:kgs'
 
 # Deckard
 alias deckard='BUNDLE_GEMFILE=/Users/kylesessions/projects/zozi/deckard-ruby/Gemfile bundle exec /Users/kylesessions/projects/zozi/deckard-ruby/bin/deckard'
