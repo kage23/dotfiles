@@ -21,5 +21,10 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 # Git aliases
 alias st='git status'
 alias gco='git checkout'
+alias forcepush='git push -f'
 
+# Common Typos
+alias gupl='gulp'
 
+# Start Memcached
+alias mcdstart='memcached -m 100 -l 127.0.0.1 -p 11211 -d'
